@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title><!-- RESTAURANT NAME --> Your Restaurant — Menu</title>
+  <link href="assets/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-name">YOUR RESTAURANT NAME</a>
+        <span class="brand-tagline">cozy • seasonal • crafted</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="menu.html" class="nav-link active">Menu</a>
+        <a href="reservation.html" class="nav-link btn btn-gold">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">Our Menu</h1>
+      <p class="muted">Short, focused, and seasonal. Replace items & prices below.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div class="menu-section">
+        <h3 class="menu-section-title">Starters</h3>
+        <!-- Replace these lines with your items -->
+        <div class="menu-item">
+          <div class="menu-item-name">Emerald Garden Salad</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">1200 DZD</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Truffle Mushroom Soup</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">1400 DZD</div>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3 class="menu-section-title">Mains</h3>
+        <div class="menu-item">
+          <div class="menu-item-name">Herb-Crusted Beef</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">3500 DZD</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Cedar Plank Salmon</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">3200 DZD</div>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3 class="menu-section-title">Desserts</h3>
+        <div class="menu-item">
+          <div class="menu-item-name">Dark Chocolate Torte</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">1100 DZD</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Pistachio Semifreddo</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">1200 DZD</div>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3 class="menu-section-title">Drinks</h3>
+        <div class="menu-item">
+          <div class="menu-item-name">Fresh Mint Lemonade</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">600 DZD</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-name">Espresso</div>
+          <div class="menu-item-dots"></div>
+          <div class="menu-item-price">300 DZD</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-title">YOUR RESTAURANT NAME</div>
+        <div>123 Cozy Street, Your City</div>
+        <div>Open: 18:00–23:00 (Tue–Sun)</div>
+      </div>
+      <div>
+        <div>Call: +213 xx xx xx xx</div>
+        <div>Email: contact@yourrestaurant.com</div>
+        <div>
+          <a href="#" class="link">Instagram</a> ·
+          <a href="#" class="link">Facebook</a> ·
+          <a href="#" class="link">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
