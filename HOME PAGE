@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title><!-- RESTAURANT NAME --> Your Restaurant — Home</title>
+  <link href="assets/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="description" content="A cozy, luxury dining experience. Reserve your table and explore our menu." />
+</head>
+<body>
+  <!-- Top Bar / Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- TODO: Replace with your name -->
+        <a href="index.html" class="brand-name">YOUR RESTAURANT NAME</a>
+        <span class="brand-tagline">cozy • seasonal • crafted</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+        <a href="reservation.html" class="nav-link btn btn-gold">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="--hero-img:url('https://images.unsplash.com/photo-1543353071-087092ec393e?q=80&w=1600&auto=format&fit=crop');">
+    <div class="container hero-inner">
+      <h1 class="hero-title">Cozy Luxury Dining</h1>
+      <p class="hero-subtitle">Dark wood, emerald tones, and dishes that linger in memory.</p>
+      <div class="hero-cta">
+        <a href="menu.html" class="btn btn-outline">View Menu</a>
+        <a href="reservation.html" class="btn btn-gold">Book a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights (light marketing, not heavy) -->
+  <section class="section">
+    <div class="container grid-3">
+      <div class="card">
+        <h3 class="card-title">Chef’s Picks</h3>
+        <p class="muted">Rotating seasonal items and a short list of signature plates.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Intimate Ambience</h3>
+        <p class="muted">Dark wood & luxurious green palette with warm lighting.</p>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Simple Reservations</h3>
+        <p class="muted">See live table availability. We hold tables for 1 minute past time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Info (shows on every page in footer style) -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-title"><!-- TODO: replace -->YOUR RESTAURANT NAME</div>
+        <div><!-- TODO: replace -->123 Cozy Street, Your City</div>
+        <div><!-- TODO: replace -->Open: 18:00–23:00 (Tue–Sun)</div>
+      </div>
+      <div>
+        <div>Call: <!-- TODO: replace -->+213 xx xx xx xx</div>
+        <div>Email: <!-- TODO: replace -->contact@yourrestaurant.com</div>
+        <div>
+          <a href="#" class="link">Instagram</a> ·
+          <a href="#" class="link">Facebook</a> ·
+          <a href="#" class="link">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
